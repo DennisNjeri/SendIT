@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+
+	<meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title> Create Order </title>
+
+    <!-- font awesome icons-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!-- custom css-->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+</head>
+<body>
+
+	<nav>
+		<a class="navlogo" href="index.html">
+			<i class="fas fa-box fa-3x"></i>
+			SendIT-Denno
+		</a>
+
+		<span class="navlinks" >
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="fas fa-home"></i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fas fa-cubes"></i>
+						Services
+					</a>
+				</li>
+				<li>
+					<a href="signin.html">
+						<i class="fas fa-user-circle"></i>
+						SignIn
+					</a>
+				</li>
+			</ul>
+		</span>
+	</nav>
+
+	<div id="contentmain">
+		<div class="functionwrap">
+			
+			<div class="functionlinks">
+				<span class="userimage">
+					<img src="images/user.jpg" 
+					alt="User Image" />
+				</span>
+
+				<ul>
+					<li>
+						<h4 style="text-align:center;">Welcome ..name..</h4>
+					</li>
+					<li>
+						<a href="makeorder.html">
+							<i class="fas fa-plus-circle fa-lg"></i>
+							<span>
+								Create Order
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="changelocation.html">
+							<i class="fas fa-location-arrow fa-lg"></i>
+							<span>
+								Change Location
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-link fa-lg"></i>
+							<span>
+								Other Function
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="functionaction">
+				<div class="formwrap">
+					<form method="POST" action="" class="shadow">
+						<h3>Create New Order</h3>
+						<div class="formrow">
+							<label>Parcel Description</label>
+							<input type="text" name="description" />
+						</div>
+						<div class="formrow">
+							<label>From</label>
+							<input type="text" name="from" />
+						</div>
+						<div class="formrow">
+							<label>To</label>
+							<input type="text" name="to" />
+						</div>
+						<div class="formrow">
+							<label>Parcel Weight</label>
+							<input type="number" name="weight" />
+						</div>
+						<div class="formrow sub">
+							<input type="submit" name="submitsignin" value="Submit Order" />
+						</div>
+						<div class="formextra">
+							<a href="#">
+								Link to something
+							</a>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="footerlinks">
+			<h4 style="">Common Links</h4>
+			<ul>
+				<li>
+					<a href="index.html">
+						<i class="fas fa-home"></i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fas fa-cubes"></i>
+						Services
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footerinfo">
+			<h4 style="text-align: right;">Developed by Dennis Njogu</h4>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script>
+
+	</script>
+
+</body>
+</html>
